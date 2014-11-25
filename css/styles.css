@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html {
+    background: url("/images/space_bg.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: UniversLTStd, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #c4d82d;
+    text-decoration: none;
+}
+
+.highlight {
+    color: #c4d82d;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 900px;
+    position: relative;
+}
+
+.header {
+    padding: 30px 0 75px 0;
+    position: relative;
+    z-index: 60;
+}
+
+.header .back {
+    position: fixed;
+    top: 10px;
+    left: 40px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    z-index: 60;
+}
+
+.header .info {
+    position: fixed;
+    top: 5px;
+    right: 40px;
+    cursor: default;
+    text-align: right;
+    z-index: 60;
+}
+
+.header .info .icon {
+    position: relative;
+    top: 4px;
+    margin-right: 4px;
+}
+
+.header .info .heading {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #c4d82d;
+}
+
+.header .info .text {
+    color: #fff;
+    display: none;
+    width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    background: rgba(7, 26, 49, 0.9);
+    padding: 5px 10px 10px 10px;
+    position: relative;
+    top: -4px;
+    right: -10px;
+}
+
+.header .top-strip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    z-index: 55;
+    background: #071a31;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.cluster {
+    width: 943px;
+    height: 943px;
+    margin-left: -472px;
+    left: 50%;
+    top: -300px;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 20;
+}
+
+.welcome {
+    margin: 0 auto;
+    display: block;
+}
+
+.intro {
+    background: rgba(7, 26, 49, 0.5);
+    margin: 0 auto;
+    padding: 10px 25px 15px 25px;
+    max-width: 1010px;
+    position: relative;
+}
+
+.intro p {
+    line-height: 26px;
+    margin: 26px 0;
+    text-align: center;
+}
+
+.intro .explore {
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    display: block;
+    cursor: pointer;
+    width: 125px;
+    height: 35px;
+    margin-left: -63px;
+}
+
+.space {
+    overflow: hidden;
+    margin-top: 150px;
+    height: 1090px;
+}
+
+.space__planet {
+    background: url("/images/planet.png");
+    width: 785px;
+    height: 793px;
+    margin: 0 auto;
+}
+
+.space__flashes {
+    background: url("/images/space_flashes.png");
+    width: 1077px;
+    height: 768px;
+    margin: 600px 100px -300px -100px;
+}
+
+.space__curvy-lines {
+    background-image: url("/images/curvy_lines.png");
+    width: 816px;
+    height: 804px;
+    left: 100% !important;
+    margin: 700px 0 0 -600px;
+}
