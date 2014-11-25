@@ -160,7 +160,7 @@ a {
 
 .space {
     overflow: hidden;
-    margin-top: 150px;
+    padding-top: 150px;
     height: 1090px;
 }
 
@@ -168,7 +168,15 @@ a {
     background: url("/images/planet.png");
     width: 785px;
     height: 793px;
-    margin: 0 auto;
+    left: 50% !important;
+    margin: 160px 0 0 -392px;
+}
+
+.space__planet-links {
+    width: 785px;
+    height: 793px;
+    left: 50% !important;
+    margin: 160px 0 0 -392px;
 }
 
 .space__flashes {
@@ -184,4 +192,141 @@ a {
     height: 804px;
     left: 100% !important;
     margin: 700px 0 0 -600px;
+}
+
+.space__glows {
+    background-image: url("/images/space_glows.png");
+    width: 814px;
+    height: 732px;
+    left: 50% !important;
+    margin: 200px 0 0 -420px;
+}
+
+.link-creative {
+    background-image: url("/images/creative-fs8.png");
+    width: 198px;
+    height: 119px;
+    position: absolute;
+    top: 57px;
+    left: 305px;
+}
+
+.link-creative:hover {
+    background-image: url("/images/creative-hover-fs8.png");
+}
+
+.link-business {
+    background-image: url("/images/business-fs8.png");
+    width: 196px;
+    height: 109px;
+    position: absolute;
+    top: 83px;
+    left: 486px;
+}
+
+.link-business:hover {
+    background-image: url("/images/business-hover-fs8.png");
+}
+
+.link-education {
+    background-image: url("/images/education-fs8.png");
+    width: 193px;
+    height: 116px;
+    position: absolute;
+    top: 300px;
+}
+
+.link-education:hover {
+    background-image: url("/images/education-hover-fs8.png");
+}
+
+.link-health {
+    background-image: url("/images/health-fs8.png");
+    width: 194px;
+    height: 68px;
+    position: absolute;
+    top: 500px;
+    left: -27px;
+}
+
+.link-health:hover {
+    background-image: url("/images/health-hover-fs8.png");
+}
+
+.link-information {
+    background-image: url("/images/information-fs8.png");
+    width: 232px;
+    height: 126px;
+    position: absolute;
+    top: 400px;
+    left: 573px;
+}
+
+.link-information:hover {
+    background-image: url("/images/information-hover-fs8.png");
+}
+
+.link-psychology {
+    background-image: url("/images/psychology-fs8.png");
+    width: 250px;
+    height: 126px;
+    position: absolute;
+    top: 570px;
+    left: 30px;
+}
+
+.link-psychology:hover {
+    background-image: url("/images/psychology-hover-fs8.png");
+}
+
+.link-science {
+    background-image: url("/images/science-fs8.png");
+    width: 193px;
+    height: 115px;
+    position: absolute;
+    top: 615px;
+    left: 300px;
+}
+
+.link-science:hover {
+    background-image: url("/images/science-hover-fs8.png");
+}
+
+.link-tafe {
+    background-image: url("/images/tafe-fs8.png");
+    width: 196px;
+    height: 90px;
+    position: absolute;
+    top: 101px;
+    left: 20px;
+}
+
+.link-tafe:hover {
+    background-image: url("/images/tafe-hover-fs8.png");
+}
+
+.link-engineering {
+    background-image: url("/images/engineering-fs8.png");
+    width: 196px;
+    height: 126px;
+    position: absolute;
+    top: 264px;
+    left: 640px;
+}
+
+.link-engineering:hover {
+    background-image: url("/images/engineering-hover-fs8.png");
+}
+
+.link-english {
+    background-image: url("/images/english-fs8.png");
+    width: 196px;
+    height: 126px;
+    position: absolute;
+    top: 613px;
+    left: 512px;
+}
+
+.link-english:hover {
+    background-image: url("/images/english-hover-fs8.png");
 }
